@@ -42,9 +42,3 @@ lavad q bank balances $<lavad keys show wallet -a>
 ______________________
  #create validator :
 __________________________
-
-
-lavad tx staking create-validator \
---amount=90000ulava \
---pubkey=$(lavad tendermint show-validator) \
---moniker="YOUR_VALIDATOR_MONIKER" \
